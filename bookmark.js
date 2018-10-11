@@ -1,3 +1,1 @@
-var a  = {
-  console.log(a);
-}
+var test = "This is a test";
