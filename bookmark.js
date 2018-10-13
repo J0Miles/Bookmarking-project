@@ -38,3 +38,11 @@ function saveBookmark(e) {
   // Prevents immediate form submit
   e.preventDefault();
 }
+
+// Fetch bookmarks
+function fetchBookmarks() {
+  // Fetch from local storage
+  var bookmarks = JSON.parse(localStorage.getItem('bookmarks'));
+
+  console.log(bookamrks);
+}
