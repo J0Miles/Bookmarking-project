@@ -43,6 +43,8 @@ function saveBookmark(e) {
 function fetchBookmarks() {
   // Fetch from local storage
   var bookmarks = JSON.parse(localStorage.getItem('bookmarks'));
-
-  console.log(bookamrks);
+  // Get output Id
+  var bookmarkResults = document.getElementById('bookmarkResults');
+  // Build output
+  bookmarkResluts.innerHTML = 'Hello'
 }
