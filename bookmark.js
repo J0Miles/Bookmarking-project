@@ -46,5 +46,14 @@ function fetchBookmarks() {
   // Get output Id
   var bookmarkResults = document.getElementById('bookmarkResults');
   // Build output
-  bookmarkResults.innerHTML = 'Hello';
+  bookmarkResults.innerHTML = '';
+  for (var i = 0; i < bookmarks.length; i++) {
+    var name = bookmarks[i].name;
+    var url = bookmarks[i].url;
+
+    bookmarkResults.innerHTML += '<div class = "well">' +
+      '<h3>' + name +
+      '</h3>' +
+      '</div>';
+  }
 }
