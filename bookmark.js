@@ -46,5 +46,5 @@ function fetchBookmarks() {
   // Get output Id
   var bookmarkResults = document.getElementById('bookmarkResults');
   // Build output
-  bookmarkResluts.innerHTML = 'Hello'
+  bookmarkResults.innerHTML = 'Hello';
 }
